@@ -36,4 +36,13 @@ The API supports:
 ### 🧩 In Google Colab
 1. Copy the complete `app.py` code into a Colab cell.  
 2. Run the cell — Flask and Ngrok will install automatically.  
-3. A link will appear such as:  
+3. A link will appear such as:
+
+Running on https://xxxx.ngrok.io
+
+Use that URL in Postman or Python `requests` to test your API.
+
+### 💻 Option 2 – Run Locally
+```bash
+pip install flask
+python app.py
