@@ -46,3 +46,7 @@ Use that URL in Postman or Python `requests` to test your API.
 ```bash
 pip install flask
 python app.py
+
+Server starts at:
+
+http://127.0.0.1:5000
